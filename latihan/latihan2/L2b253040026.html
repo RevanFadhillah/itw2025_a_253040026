@@ -6,7 +6,7 @@
     <title>Form & Tabel</title>
   </head>
   <body>
-    <table border="1" cellspacing="0" cellpadding="10">
+    <table border="1" cellspacing="0" cellpadding="10" align="center">
       <form>
         <tr>
           <th colspan="3">INPUT DATA MAHASISWA</th>
@@ -36,27 +36,33 @@
           <td>:</td>
           <td><select>
             <option name="Agama" selected>--Pilih Agama--</option>
-            <option value="Islam">Islam</option>
-            <option value="Islam">Kristen</option>
-            <option value="Islam">Hindu</option>
-            <option value="Islam">Budha</option>
+            <option value="islam">Islam</option>
+            <option value="kristen">Kristen</option>
+            <option value="hindu">Hindu</option>
+            <option value="budha">Budha</option>
           </select></td>
         </tr>
         <tr>
           <td>Jenis Kelamin</td>
           <td>:</td>
-          <td><input type="text" /></td>
+          <td><input type="radio" name="jeniskel" value="pria"/>Laki-Laki
+          <input type="radio" name="jeniskel" value="perempuan"/>Perempuan</td>
         </tr>
         <tr>
           <td>Hobi</td>
           <td>:</td>
-          <td><input type="text" /></td>
+          <td><input type="checkbox" name="hobi" value="musik" />Musik
+              <input type="checkbox" name="hobi" value="olahraga" />Olahraga
+              <input type="checkbox" name="hobi" value="gaming" />Gaming
+              <input type="checkbox" name="hobi" value="lainnya" />Lainnya
+          </td>
         </tr>
         <tr>
           <td>Profil singkat</td>
           <td>:</td>
-          <td><input type="text" /></td>
+          <td><textarea rows="5" cols="38" name="komentar"></textarea></td>
         </tr>
+        <td colspan="3" align="right"><input type="submit" name="input" value="Input"></td>
       </form>
     </table>
   </body>
