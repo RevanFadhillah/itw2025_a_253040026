@@ -1,0 +1,13 @@
+h1 {
+ font-size: 50px;
+ color: blueviolet;
+ font-family: "Macondo", cursive;
+ text-decoration: line-through;
+ text-align: center;
+}
+
+body {
+    display: block;
+    background-size: cover;
+     background-image: url(img/wallpaper.png);
+}
