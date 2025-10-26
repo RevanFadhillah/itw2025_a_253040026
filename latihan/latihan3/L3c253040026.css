@@ -1,0 +1,48 @@
+body {
+    background-color: aqua;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h1 {
+    font-family: 'Comic Sans MS';
+    font-size: 60px;
+    color: darkblue;
+    text-align: center;
+}
+
+h4{
+    text-align: right;
+    font-style: italic;
+}
+
+p{
+    text-align: center;
+}
+
+.instagram{
+    color: white;
+}
+
+.instagram:hover{
+    color: chocolate;
+    text-decoration: none;
+}
+
+.facebook{
+    color: darkblue;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.facebook:hover{
+    background-color: blue;
+    color: white;
+}
+
+.p1{
+    color: salmon;
+}
+
+.p2{
+    line-height: 30px;
+}
